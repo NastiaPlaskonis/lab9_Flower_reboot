@@ -1,0 +1,14 @@
+package ucu.edu.ua.demo.user;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class UserSend implements Interface{
+    private User theUser;
+    @Override
+    public void update(String information) {
+        System.out.println("Email - " + theUser.getUserEmail() + ". Message - " + information);
+    }
+}

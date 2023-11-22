@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import ucu.edu.ua.demo.flowers.Flower;
 import ucu.edu.ua.demo.flowers.Item;
 
-import ucu.edu.ua.demo.decorator.ItemBasket;
+import ucu.edu.ua.demo.decorator.Basket;
 import ucu.edu.ua.demo.decorator.Paper;
 import ucu.edu.ua.demo.decorator.Ribbon;
 
